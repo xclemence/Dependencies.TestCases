@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5</TargetFramework>
+    <AssemblyName>Net.Cycle.Lib3</AssemblyName>
+    <RootNamespace>Net.Cycle.Lib3</RootNamespace>
+    <DisableTransitiveProjectReferences>true</DisableTransitiveProjectReferences>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Cycle.Lib1\Net.Cycle.Lib1.csproj" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
